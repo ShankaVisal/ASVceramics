@@ -1,7 +1,424 @@
-<!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <head>
+  
+    <style>
+
+      * {box-sizing: border-box;}
+
+      body {
+        font-family: Verdana, sans-serif;
+        background-image: url("slide wallpaper.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: black;
+      }
+      .mySlides {display: none;}
+      img {vertical-align: middle;}
+
+      .logo{
+        text-align: center;
+      }
+
+
+      .right{
+        text-align: right;
+      }
+
+      .pagination a {
+        color: black;
+        background-color: white;
+        float: center;
+        padding: 8px 10px ;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        border: 2px solid #ddd;
+        margin: 6px;
+        border-radius: 5px;
+
+      }
+
+      .pagination a.active {
+        background-color: darkblue;
+        color: whitesmoke;
+        border: 2px solid blue;
+        border-radius: 5px;
+      }
+
+      .pagination a:hover:not(.active) {
+        background-color: #ddd;
+      }
+
+
+      .left {
+        text-align: left;
+      }
+
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+        align-content: center;
+      }
+
+      /* Caption text */
+      .text {
+        font-size: 22px;
+        padding: 18px 32px;
+        position: absolute;
+        text-align: center;
+        font-family: monospace;
+        transform: translate(-50%, -50%);
+        top: 95%;
+        left: 50%;
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+      }
+      
+      .about {
+        color: #f2f2f2;
+        opacity: 0.3;
+        font-size: 22px;     
+        text-align: center;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+
+      /* The dots/bullets/indicators */
+      .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+
+      .active {
+        background-color: #717171;
+      }
+
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1s;
+        animation-name: fade;
+        animation-duration: 1s;
+      }
+      
+      @-webkit-keyframes fade {
+        from {opacity: .0.4} 
+        to {opacity: 1}
+      }
+      
+      @keyframes fade {
+        from {opacity: 0.4} 
+        to {opacity: 1}
+      }
+
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+      }
+
+      dialog {
+       height: 400px;
+       width: 1100px;
+       background-image: url("i (10).jpg");
+       background-size: 100%;
+       border-radius: 10px;
+       /*background-attachment: fixed;*/
+       background-repeat: no-repeat;
+       border-width: 0.1px;
+       opacity: 0.9;
+       font-weight: bold;
+      }
+
+      * td {
+        color: darkred;
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+       /*font-weight: bold;*/ 
+      } 
+
+      .label {
+        color: white;
+        padding: 8px;
+        font-family: Arial;
+      }
+      .success {background-color: #04AA6D;} /* Green */
+      .info {background-color: #2196F3;} /* Blue */
+      .danger {background-color: #f44336;} /* Red */ 
+
+
+      .footer {
+        padding: 4px 2px ;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #353535;
+        color: white;
+        text-align: center;
+      }
+
+      .aa{
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+      }
+      .aa a:link {
+        color: white;
+        text-decoration: none;
+      }
+        .aa a:visited {
+        color: white;
+        text-decoration: none;
+      }
+        .aa a:hover {
+        color: red;
+      }
+      .aa a:active {
+        color: yellow;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+
+    <p class="logo"><img src="companylogo2.png"> </p>
+    <br>
+
+
+    <div align="right">
+      <div class="pagination">
+        <a href="homepage.html" class="active" on>Home</a>
+        <a href="gallery.html" target="blank">Gallery</a>
+        <a href="billing%20page.html" target="blank">Cart</a>
+        <a href="information%20sheet.html" target="blank">Sign Up</a>
+        <a href="login%20page.html" target="blank">Login</a>
+      </div>
+    </div>
+    <br>
+    <br>
+
+    <p>
+      <span class="label danger">COVID 19 UPDATE !</span><br><br>
+    </p>
+    <p>
+      <span class="label info">Now Our showrooms are closed. But our website and our experts are standing by to help you...</span><br><br>
+    </p>
+    <p>
+      <span class="label success">You can buy our products through our website...!</span><br>
+    </p>
+
+   <div align="center">
+    <video width="1000px" height="640px" autoplay muted loop >
+      <source src="video.mp4" type="video/mp4">
+      <source src="video.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+   </div>
+
+    <p font-family=" Georgia">
+      <table align="center" width="75%" >
+      <tr><td align="justify" width="75%">
+      ASV ceramics have quickly become a beloved item for those who love ASV design. With aesthetics ranging from organic, natural shapes and raw edges to hyper-minimalist silhouettes, there’s an ASV ceramic brand for every style.
+      <br><br>
+      Ceramics are any articles made from hardened clay. There are multiple ways to make ceramic pieces, but handcrafted ceramics are either made freehand or on a potter’s wheel. They are then fired in an oven, and then painted or glazed. Making ceramics is a universal art form (guess what exists everywhere? Clay, because it’s made from the ground!), but trends and styles have developed depending on the aesthetics and needs of various countries and cultures.
+      <br><br>
+      Modern ceramics from SRI LANKA are largely minimalist and functional, but there’s also a host of artistic and sculptural work being produced. As is often the case in Scandinavia design, there’s a focus on small-batch, high-quality artisanal ceramics. Today, you’ll find a host of ceramics studios, offering everything from the quirky and colorful to the sleek and monochrome. Whether you need a mug, vase, set of plates, or just a beautiful sculpture, there’s something for you.
+      </td>
+      <td><img src="companylogo1.png" > </td>
+      </tr>
+
+      </table>
+    </p>
+
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 10</div>
+        <img src="c (10).PNG">
+      <div class="text">Earth is a potters playground</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 10</div>
+        <img src="c (9).PNG">
+      <div class="text">Feel it, Feel the Uniqueness</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 10</div>
+        <img src="c (8).PNG">
+      <div class="text">In touch with inner peace</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 10</div>
+        <img src="c (7).PNG">
+      <div class="text">Molding soul into the clay</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 10</div>
+        <img src="c (6).PNG">
+      <div class="text">A field of clay touched by the genius of man becomes a castle</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 10</div>
+        <img src="c (5).PNG">
+      <div class="text">This is ceramics.. There are no guarantees..</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">7 / 10</div>
+        <img src="c (4).PNG">
+      <div class="text">A day without pottery is a day wasted..</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">8 / 10</div>
+        <img src="c (3).PNG">
+      <div class="text">Art is not what you see, but what you make others see..</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">9 / 10</div>
+        <img src="c (2).PNG">
+      <div class="text">Pottery and sculpture are a way of life for me, not simply my job..</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">10 / 10</div>
+        <img src="c (1).PNG">
+      <div class="text">I do pottery. I love it. It’s very relaxing; it takes me to another planet..</div>
+    </div>
+
+
+   </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+    </div>
+
+    <!--<div class="about"> 
+    <dialog open>
+      <div class="about"> -->
+        <table align="center" width="75%" >
+          <tr>
+            <td colspan="2" align="center">
+              <p><h1> <font color="white"> About Us </font></h1><hr></p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="justify"><font size="4">
+              ASV Ceramics offers handcrafted tableware, unique gift items, and fusion studio ceramics.<br> Whatever your own taste is, whether it's French country, Japanese stylish, or American city....<br> this pottery will add to the beauty of your house, restaurant, or hotel.<br><br></font>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+              <p>
+                <h1> <font color="white"> Contact Us </font></h1><hr>
+              </p>
+            </td>
+          </tr>
+            <tr>
+            <td rowspan="4"  style="width:50%" align="center">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d779.86595121723!2d80.05890307312217!3d7.153922120249877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2fd2c7146cd0d%3A0x537921ad548f0b22!2s5335%2BGQ4%2C%20Veyangoda%2011100!5e0!3m2!1sen!2slk!4v1639461971020!5m2!1sen!2slk" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" > </iframe>
+            </td>
+            <td>
+              <b>Our Showroom</b><br><br>
+              ASV Ceramic Company (Pvt)Ltd.<br>
+              Main Street,<br>
+              Veyangoda,<br>
+              11100<br>
+              Sri Lanka.
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <b>Contact Number</b><br><br>
+              +94 33 43 12345
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Email Addrss</b><br><br>
+              <a href="mailto:asvceramicspvtlimited@gmail.com"><div class="aa"> asvceramicspvtlimited@gmail.com</div> </a>
+            </td>
+          </tr>
+        </table>
+
+        
+      </div>
+      
+    </dialog>
+
+    <div class="footer">
+      <p>
+      <div class="aa"> © ASV Ceramic Company (Pvt)Ltd. 2022 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="mailto:asvceramicspvtlimited@gmail.com">support&nbsp; &nbsp; &nbsp;</a>     
+      <a href="privacy.html">Pivacy Policy </div></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="http://www.facebook.com" target="blank"><img src="facebook.svg"></a>&nbsp;
+      <a href="https://www.linkedin.com/feed" target="blank"><img src="linkedin.svg"></a>&nbsp;
+      <a href="http://www.twitter.com" target="blank"><img src="twitter.svg"></a>&nbsp;
+      <a href="https://www.instagram.com/" target="blank"><img src="instergram.svg"></a>
+      </p>
+    </div>
+
+  <script>
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) 
+    {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
 </body>
-</html>
+</html> 
