@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body{
+        background-color: lightblue;
+      }
+
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+
+      
+      }
+
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other 
+      @media screen and (max-width: 500px) {
+      .column {
+        width: 100%;*/
+      }
+      }
+
+      .right{
+        text-align: right;
+      }
+
+      .pagination a {
+        color: black;
+        background-color: white;
+        float: center;
+        padding: 8px 10px ;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        border: 2px solid #ddd;
+        margin: 6px;
+        border-radius: 5px;
+
+      }
+
+      .pagination a.active {
+        background-color: darkblue;
+        color: whitesmoke;
+        border: 2px solid blue;
+        border-radius: 5px;
+      }
+
+      .pagination a:hover:not(.active) {
+        background-color: #ddd;
+      }
+
+      p{
+        text-align: center;
+      }
+
+      .txt {
+        font-size: 22px;
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color: #f1f1f1;
+        width: 100%;
+        font-family: Verdana, sans-serif;
+      }
+
+      .a {
+        font-family:  Copperplate, Papyrus, fantasy;
+        font-size: 20px;
+        text-align: justify;
+        
+        background: black; /* Black background with 0.5 opacity */
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+      }
+
+
+      h1 {
+      text-align: center;
+      text-transform: uppercase;
+      color: blue;
+      font-weight: 900;
+      font-family: "Audiowide", sans-serif;
+      font-size: 70px;
+      text-shadow: 3px 3px 3px #ababab;
+      text-shadow: 0 0 0.1em cyan, 0 0 0.2em cyan, 0 0 0.3em cyan, 0 0 0.4em cyan,0 0 0.6em cyan, 0 0 0.8em cyan, 0 0 1.0em cyan, 0 0 1.2em cyan;
+      }
+
+      .footer {
+        padding: 1px ;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #353535;
+        color: white;
+        text-align: center;
+      }
+      .aa{
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+      }
+      .aa a:link {
+        color: white;
+        text-decoration: none;
+      }
+        .aa a:visited {
+        color: white;
+        text-decoration: none;
+      }
+        .aa a:hover {
+        color: red;
+      }
+      .aa a:active {
+        color: yellow;
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <p><img src="gallery.png"> </p>
+    
+    <div align="right">
+      <div class="pagination">
+        <a href="homepage.html">Home</a>
+        <a href="gallery.html" class="active" on>Gallery</a>
+        <a href="billing%20page.html" target="blank">Cart</a>
+        <a href="information%20sheet.html" target="blank">Sign Up</a>
+        <a href="login%20page.html" target="blank">Login</a>
+      </div>
+    </div>
+
+   <h1>Studio Arts</h1>
+
+    <div class="row">
+      <div class="column">
+        <img src="studioarts (1).png" alt="Vas" style="width:100%;height: 100%;">
+        <figcaption class="txt">Product code : SA1001</figcaption>
+      </div>
+
+      <div class="column">
+        <img src="studioarts (2).png" alt="Vas" style="width:100%;height: 100%;">
+        <figcaption class="txt">Product code : SA1002</figcaption>
+      </div>
+
+      <div class="column">
+        <img src="studioarts (3).png" alt="Vas" style="width:100%;height: 100%;">
+        <figcaption class="txt">Product code : SA1003</figcaption>
+      </div>
+
+      <div class="column">
+        <img src="studioarts (4).png" alt="Vas" style="width:100%;height: 100%;">
+        <figcaption class="txt">Product code : SA1004</figcaption>
+      </div>
+
+      <div class="column">
+        <img src="studioarts (5).png" alt="Vas" style="width:100%;height: 100%;">
+        <figcaption class="txt">Product code : SA1005</figcaption>
+      </div>
+
+      <div class="column">
+        <img src="studioarts (6).png" alt="Vas" style="width:100%;height: 100%;">
+        <figcaption class="txt">Product code : SA1006</figcaption>
+      </div>
+    </div>
+
+    <table class="a">
+      <tr><td>
+  
+        The figurine is in excellent condition: no crazing, chips, cracks, broken, missing or repaired parts. Satisfaction guaranteed<br>
+        This Modern Ceramic studio arts are a very suitable for office or home décor; the items also can be prevalent in wedding planning, artificial flower arranging, Centerpieces, Birthday or House Warming Gifts, and any Special Romantic Events...
+
+      </td></tr>
+    </table>
+    <br><br><br>
+    <div class="footer">
+      <p>
+      <div class="aa"> © ASV Ceramic Company (Pvt)Ltd. 2022 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="mailto:asvceramicspvtlimited@gmail.com">support&nbsp; &nbsp; &nbsp;</a>     
+      <a href="privacy.html">Pivacy Policy </div></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="http://www.facebook.com"><img src="facebook.svg"></a>&nbsp;
+      <a href="https://www.linkedin.com/feed"><img src="linkedin.svg"></a>&nbsp;
+      <a href="http://www.twitter.com"><img src="twitter.svg"></a>&nbsp;
+      <a href="https://www.instagram.com/"><img src="instergram.svg"></a>
+      </p>
+    </div>
+  
+  </body>
+</html>

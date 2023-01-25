@@ -1,0 +1,180 @@
+<html>
+<head>
+	<style>
+		th, td {
+			padding: 8px;
+ 			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+		tr:hover {
+			background-color: greenyellow;
+		}
+		body {
+			background-image:url("registerback.PNG");
+			background-attachment: fixed;
+			background-size: 100%;
+		}
+		td.abc{
+			
+		}
+		.logo{
+        text-align: center;
+        }
+        .right{
+        text-align: right;
+     	}
+
+      .pagination a {
+        color: black;
+        background-color: white;
+        float: center;
+        padding: 8px 10px ;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        border: 2px solid #ddd;
+        margin: 6px;
+        border-radius: 5px;
+
+       }
+
+      .pagination a.active {
+        background-color: darkblue;
+        color: whitesmoke;
+        border: 2px solid blue;
+        border-radius: 5px;
+       }
+
+      .pagination a:hover:not(.active) {
+        background-color: #ddd;
+       }
+
+       .footer {
+        padding: 1px ;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #353535;
+        color: white;
+        text-align: center;
+      }
+      .aa{
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+      }
+      .aa a:link {
+        color: white;
+        text-decoration: none;
+      }
+        .aa a:visited {
+        color: white;
+        text-decoration: none;
+      }
+        .aa a:hover {
+        color: red;
+      }
+      .aa a:active {
+        color: yellow;
+      }
+
+
+	</style>
+</style>
+</head>
+<body>
+
+	
+	<p class="logo"><img src="registerlogo.png"> </p>
+
+	<div align="right">
+      <div class="pagination">
+        <a href="homepage.html" target="blank">Home</a>
+        <a href="gallery.html" target="blank">Gallery</a>
+        <a href="billing%20page.html" target="blank">Cart</a>
+        <a href="information%20sheet.html" class="active" on>Sign Up</a>
+        <a href="login%20page.html" target="blank">Login</a>
+      </div>
+    </div>
+    <br>
+    <br>
+
+	<form action="eg01.html" method="POST">
+	<table align="center">
+		<tr>
+			<td>First Name</td>
+			<td><input type="text" name="fn" required></td>
+		
+		</tr>
+		<tr>
+			<td>Last Name</td>
+			<td><input type="text" name="ln" required></td>
+		</tr>
+		<tr>
+			<td>Date Of Birth</td>
+			<td><input type="date" name="dob" required></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td><input type="email" name="mail" required></td>
+		</tr>
+		<tr>
+			<td>Contact Number</td>
+			<td><input type="text" name="cnum" required></td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td>Male<input type="radio" name="gender" value="m"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Female<input type="radio" name="gender" value="f"></td>
+		</tr>
+		<tr>
+			<td rowspan="2">Shipping Address</td>
+			<td><input type="text" name="Address1" placeholder="Address line 1" required></td>
+		</tr>
+		<tr>
+			<td><input type="text" name="Address2" placeholder="Address line 2 (optional)"></td>
+		</tr>
+		<tr>
+			<td>User Name</td>
+			<td><input type="text" name="un" required></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><input type="Password" name="pw" required></td>
+		</tr>
+		<tr>
+			<td>Confirm Password</td>
+			<td><input type="Password" name="cpw" required></td>
+		</tr>
+		<tr>
+			<td>Profile Picture</td>
+			<td><input type="file" name="pp" accept="image/*"></td>
+		</tr>
+		<tr>
+			<td>
+				<input type="submit" name="submit">
+			</td>
+			<td>
+				<input type="reset" name="Reset">
+			</td>
+		</tr>
+
+	</table>		
+	</form>
+	<br><br><br>
+	<div class="footer">
+      <p>
+      <div class="aa"> © ASV Ceramic Company (Pvt)Ltd. 2022 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="mailto:asvceramicspvtlimited@gmail.com">support&nbsp; &nbsp; &nbsp;</a>     
+      <a href="privacy.html">Pivacy Policy </div></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="http://www.facebook.com"><img src="facebook.svg"></a>&nbsp;
+      <a href="https://www.linkedin.com/feed"><img src="linkedin.svg"></a>&nbsp;
+      <a href="http://www.twitter.com"><img src="twitter.svg"></a>&nbsp;
+      <a href="https://www.instagram.com/"><img src="instergram.svg"></a>
+      </p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		login page
+	</title>
+	<style>
+	
+		dialog{
+			height: 200px;
+			width: 400px;
+			background-image: url("loginbg.png");
+			background-size: 110%;
+			border-radius: 10px;
+		}
+
+		dialog:hover{
+			border-color: lightgreen;
+		}
+
+		input{
+			padding: 4px 4px 4px 10px;
+		}
+		body {
+        font-family: Verdana, sans-serif;
+        background-image: url("loginback.PNG");
+        background-attachment: fixed;
+        background-size: 100%;
+        
+        }
+		a:link {
+  			color: white;
+  			background-color: transparent;
+  			text-decoration: none;
+		}
+		a:visited {
+		 	color: lightpink;
+		 	background-color: transparent;
+			text-decoration: none;
+		}
+		a:hover {
+			color: seagreen;
+			background-color: transparent;
+			text-decoration: underline;
+		}
+		a:active {
+			color: blue;
+			background-color: transparent;
+  			text-decoration: underline;
+		}
+
+		td{
+			text-align: center;
+		}
+		.logo{
+        text-align: center;
+        }
+        .right{
+        text-align: right;
+   	}
+
+   .pagination a {
+      color: black;
+      background-color: white;
+      float: center;
+      padding: 8px 10px ;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      border: 2px solid #ddd;
+      margin: 6px;
+      border-radius: 5px;
+
+   }
+
+   .pagination a.active {
+      background-color: darkblue;
+      color: whitesmoke;
+      border: 2px solid blue;
+      border-radius: 5px;
+   }
+
+   .pagination a:hover:not(.active) {
+      background-color: #ddd;
+   }
+
+    .footer {
+      padding: 1px ;
+
+      bottom: 1;
+      width: 100%;
+      background-color: #353535;
+      color: white;
+      text-align: center;
+    }
+   
+   .aa{
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .aa a:link {
+      color: white;
+      text-decoration: none;
+    }
+    .aa a:visited {
+      color: white;
+      text-decoration: none;
+    }
+    .aa a:hover {
+      color: red;
+    }
+    .aa a:active {
+      color: yellow;
+    }
+
+    .pa{
+    	padding: 200px;
+    }
+
+
+	</style>
+	<title>Login </title>
+</head>
+
+	<p class="logo"><img src="loginlogo.png"> </p>
+
+	<div align="right">
+      <div class="pagination">
+        <a href="homepage.html" target="blank">Home</a>
+        <a href="gallery.html" target="blank">Gallery</a>
+        <a href="billing%20page.html" target="blank">Cart</a>
+        <a href="information%20sheet.html" target="blank">Sign Up</a>
+        <a href="login%20page.html" class="active" on>Login</a>
+      </div>
+    </div>
+    <br>
+    <br>
+	
+	<dialog open >
+	<font face = "Verdana" size = "13" color="red" style="text-shadow: 3px 3px 3px hotpink;"><center>LOGIN</center></font>
+	<form action="eg01.html" method="POST">
+		<table align="center">
+			<tr>
+				<td colspan="2"><input type="text" name="usn" placeholder="User Name" required></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="password" name="psw" placeholder="Password" required></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<center><input type="image" src="login.png" width="55" height="55" alt="sumbit" name="submit" value="LOGIN"></center>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://passwords.google.com/u/0/?pli=1">Forget Password | </a>
+				</td>
+				<td>
+					<a href="file:///C:/Users/User/Documents/sublime/project/information%20sheet.html" target="blank">Don't have an account</a>
+				</td>
+			</tr>
+		</table>
+	</form>
+	</dialog>
+
+	<p class="pa">
+	</p>
+	<br>
+	<br>
+
+	<div class="footer">
+      <p>
+      <div class="aa"> © ASV Ceramic Company (Pvt)Ltd. 2022 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="mailto:asvceramicspvtlimited@gmail.com">support&nbsp; &nbsp; &nbsp;</a>     
+      <a href="privacy.html">Pivacy Policy </div></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="http://www.facebook.com"><img src="facebook.svg"></a>&nbsp;
+      <a href="https://www.linkedin.com/feed"><img src="linkedin.svg"></a>&nbsp;
+      <a href="http://www.twitter.com"><img src="twitter.svg"></a>&nbsp;
+      <a href="https://www.instagram.com/"><img src="instergram.svg"></a>
+      </p>
+    </div>
+
+</body>
+</html>

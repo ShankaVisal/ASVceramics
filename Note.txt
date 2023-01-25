@@ -1,0 +1,2 @@
+*. homepage is the main page in this websie.
+*. all hml documents are visible and other images and rest of project douments are hidden in this project folder.
